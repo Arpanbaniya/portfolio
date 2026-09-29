@@ -16,7 +16,7 @@ export default function Archive() {
           <span className="serif">experiments.</span>
         </h1>
         <p>
-          Five steps in an ongoing education. Select a project to read the
+          Five steps in an ongoing practice. Select a project to read the
           notes.
         </p>
       </header>

@@ -44,8 +44,8 @@ export default function Home() {
       <section className="hero shell" aria-labelledby="hero-title">
         <div className="hero-topline">
           <span>
-            <i className="status-dot" /> A student. A builder. Still figuring
-            things out.
+            <i className="status-dot" /> An NCIT graduate. A builder. Still
+            figuring things out.
           </span>
           <span>
             KATHMANDU, NEPAL <span className="tiny-sun">✳</span>
@@ -70,7 +70,7 @@ export default function Home() {
             </h1>
             <div className="hero-bottom">
               <p>
-                Computer Engineering at NCIT.
+                Computer Engineering graduate from NCIT.
                 <br />
                 Building software, exploring automation, and getting curious
                 about finance.
@@ -151,7 +151,7 @@ export default function Home() {
           </h2>
           <div>
             <p>
-              I’m a Computer Engineering student at NCIT in Nepal. I started
+              I graduated in Computer Engineering from NCIT in Nepal. I started
               with database-backed web apps, then found myself asking what else
               a system could do: recommend an event, sort an email, or make a
               restaurant order easier.
@@ -164,7 +164,7 @@ export default function Home() {
             <div className="education">
               <span className="mono">THE FOUNDATION</span>
               <strong>Bachelor of Computer Engineering</strong>
-              <span>NCIT College · Nepal</span>
+              <span>NCIT College · Nepal · Graduated</span>
             </div>
           </div>
         </div>
@@ -191,6 +191,9 @@ export default function Home() {
                 <span>05 / FINANCE + ENGINEERING</span>
                 <span className="building">
                   <i className="status-dot" /> Currently building
+                </span>
+                <span className="building">
+                  <i className="status-dot" /> Live app
                 </span>
               </div>
               <h3>

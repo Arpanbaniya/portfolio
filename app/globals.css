@@ -554,6 +554,16 @@ h2 {
 .text-link:hover svg {
   transform: translate(3px, -2px);
 }
+.finance-feature .live-link {
+  background: var(--ink);
+  color: var(--paper);
+  padding: 9px 13px;
+}
+.case-hero .live-link {
+  border: 1px solid var(--line);
+  padding: 9px 13px;
+  color: var(--accent);
+}
 .feature-note {
   font: 22px var(--hand);
   color: #66764d;

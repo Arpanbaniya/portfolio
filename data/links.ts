@@ -15,9 +15,9 @@ export const links = {
   email: "mailto:arpanbaniya1@gmail.com",
   linkedin: publicUrl(process.env.NEXT_PUBLIC_LINKEDIN_URL),
   digipaila: "https://digipaila.com",
-  financialAutomation: publicUrl(
-    process.env.NEXT_PUBLIC_FINANCIAL_AUTOMATION_URL,
-  ),
+  financialAutomation:
+    publicUrl(process.env.NEXT_PUBLIC_FINANCIAL_AUTOMATION_URL) ??
+    "https://financial-statement-automation-syst.vercel.app/",
 };
 export const siteUrl =
   publicUrl(process.env.NEXT_PUBLIC_SITE_URL) ||

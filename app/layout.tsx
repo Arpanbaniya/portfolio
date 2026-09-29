@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     template: "%s — Arpan Baniya",
   },
   description:
-    "Computer Engineering student at NCIT, Nepal. A collection of full-stack projects, NLP experiments, team product work, and a growing interest in financial automation.",
+    "Computer Engineering graduate of NCIT, Nepal. A collection of full-stack projects, NLP experiments, team product work, and a growing interest in financial automation.",
   alternates: { canonical: "/" },
   openGraph: {
     type: "website",
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     siteName: "Arpan Baniya",
     title: "Arpan Baniya — Learning by building",
     description:
-      "Software, systems & things in progress. A student portfolio from Nepal.",
+      "Software, systems & things in progress. A Computer Engineering portfolio from Nepal.",
   },
   twitter: { card: "summary_large_image" },
 };

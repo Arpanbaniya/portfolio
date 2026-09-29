@@ -59,7 +59,7 @@ export const projects: Project[] = [
     shortTitle: "An event system with a little more intelligence.",
     category: "Intelligent applications",
     status: "Academic project",
-    role: "Student developer",
+    role: "Project developer",
     description:
       "Taking event discovery beyond a list, with recommendations, conversation, and feedback.",
     technologies: ["Recommendations", "Chatbot", "Ratings & reviews"],
@@ -91,7 +91,7 @@ export const projects: Project[] = [
     shortTitle: "A little less inbox sorting.",
     category: "NLP & automation",
     status: "Academic project",
-    role: "Student developer",
+    role: "Project developer",
     description:
       "Exploring how basic NLP and machine learning can take a repetitive task off someone’s hands.",
     technologies: ["NLP", "Machine learning", "Text classification"],

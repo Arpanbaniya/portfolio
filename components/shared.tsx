@@ -24,16 +24,21 @@ export function ExternalLink({
   );
 }
 export function ProjectActions({ project }: { project: Project }) {
+  const liveAction = project.liveUrl && (
+    <ExternalLink
+      href={project.liveUrl}
+      className={project.slug === "financial-statement-automation" ? "live-link" : ""}
+    >
+      {project.slug === "digipaila" ? "Visit DigiPaila" : "Open Live App"}
+    </ExternalLink>
+  );
   return (
     <div className="project-actions">
+      {project.slug === "financial-statement-automation" && liveAction}
       <Link className="text-link" href={`/projects/${project.slug}`}>
         Read project notes <ArrowRight size={17} />
       </Link>
-      {project.liveUrl && (
-        <ExternalLink href={project.liveUrl}>
-          {project.slug === "digipaila" ? "Visit DigiPaila" : "Open Live App"}
-        </ExternalLink>
-      )}
+      {project.slug !== "financial-statement-automation" && liveAction}
     </div>
   );
 }
