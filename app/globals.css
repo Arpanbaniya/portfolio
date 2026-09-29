@@ -15,6 +15,9 @@
 * {
   box-sizing: border-box;
 }
+.hero-grid > *, .project-pair > *, .finance-feature > * {
+  min-width: 0;
+}
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 100px;
@@ -2135,4 +2138,16 @@ h2 {
     transition: none !important;
     animation: none !important;
   }
+}
+
+@media (max-width: 360px) {
+  h1 { font-size: 56px; }
+  .email-diagram { gap: 10px; }
+  .classifier { width: 60px; height: 60px; }
+  .mail-pile { width: 44px; }
+  .mail-pile svg { width: 42px; }
+  .sorted-mail span { width: 36px; }
+  .diagram-arrow { width: 18px; }
+  .margin-note { padding-left: 0; font-size: 22px; }
+  .contact-section h2 { font-size: 56px; }
 }
